@@ -6,12 +6,12 @@ setup(name='BlacklistsChecker',
       url='https://github.com/ksantr/BlacklistsChecker.git',
       author='ksantr',
       license='MIT',
-      packages=['blacklistscheck'],
+      packages=['black_lists_check'],
       install_requires=['gevent'],
       scripts=['bin/blacklistscheck'],
       zip_safe=False,
       long_description="""\
-          Universal character encoding detector
+          Python 2.x
           -------------------------------------
 
           This version requires python-dev tools. (apt-get install python-dev).
