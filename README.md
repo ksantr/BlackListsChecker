@@ -7,7 +7,7 @@ Check if domain or ip addess is presented in spam black lists
 ###Usage
 * Use it from the commad line:
 ```    
-    blacklistscheck 10lbs2days.com
+    blcheck 10lbs2days.com
 ```
 * As python's module:
 ```    
