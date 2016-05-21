@@ -1,5 +1,5 @@
 # BlacklistsChecker
-Check domain or ip addess in spam blacklists
+Check if domain or ip addess is presented in spam black lists
 
 ###Installation
     python setup.py install
@@ -11,7 +11,9 @@ Check domain or ip addess in spam blacklists
 ```
 * As python's module:
 ```    
-    ...
+    >>> from black_lists_check import black_lists_check
+
+
 ```
 ###License
 MIT
