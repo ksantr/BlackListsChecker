@@ -1,4 +1,4 @@
-# BlacklistsChecker
+# BlackListsChecker
 Check if domain or ip addess is presented in spam black lists
 
 ###Installation
@@ -11,9 +11,9 @@ Check if domain or ip addess is presented in spam black lists
 ```
 * As python's module:
 ```    
-    >>> from black_lists_check import black_lists_check
-
-
+    >>> from blcheck import blcheck
+    >>> ch = blcheck.BlackListsChecker(threads=20)
+    >>> ch.is_spam('10lbs2days.com')
 ```
 ###License
 MIT
