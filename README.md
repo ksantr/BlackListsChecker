@@ -1,5 +1,6 @@
 # BlackListsChecker
-Check if domain or ip addess is presented in spam black lists
+Check if domain or ip addess is presented in spam black lists.
+Requires Python 2.x.
 
 ###Installation
     python setup.py install
