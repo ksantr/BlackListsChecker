@@ -64,7 +64,7 @@ class BlackListsChecker:
 
 
 if __name__ == "__main__":
-    sp = BlacklistsChecker(threads=20)
+    sp = BlackListsChecker(threads=20)
     if len(sys.argv) > 1:
         result = sp.is_spam(sys.argv[1])
         if result:
